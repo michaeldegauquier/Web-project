@@ -1,0 +1,106 @@
+/*
+ * Body style
+ */
+
+body {
+    background-color: #f2f8ff;
+    font-family: Calibri;
+}
+
+/*
+ * Shopping cart button style
+ */
+
+.hideButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    text-align: center;
+}
+
+/*
+ * Error message style
+ */
+
+.errorMsg {
+    color: red;
+}
+
+
+/*
+ * Login & register style
+ */
+
+.registerContainer {
+    margin: auto;
+    width: 500px;
+    padding: 40px;
+}
+
+.registerButton {
+    font-size: 14px;
+    height: 36px;
+    border-radius: 3px;
+}
+
+.registerButton {
+    margin-top: 6%;
+}
+
+.registerButton:hover {
+    background-color: #0047a5;
+}
+
+.loginContainer {
+    margin: auto;
+    width: 350px;
+    padding: 40px;
+}
+
+.loginButton {
+    font-size: 14px;
+    height: 36px;
+    border-radius: 3px;
+}
+
+.loginButton {
+    margin-top: 6%;
+}
+
+.loginButton:hover {
+    background-color: #0047a5;
+}
+
+
+/*
+ * Table Orders & table shopping cart style
+ */
+
+table.tableOrder {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td.tdOrder,
+th.thOrder {
+    border: 1px solid lightgray;
+    text-align: left;
+    padding: 8px;
+}
+
+tr.trOrder:nth-child(even) {
+    background-color: lightgray;
+}
+
+
+/*
+// Cesiztel. Google style login extended. Geraadpleegd via
+// https://bootsnipp.com/snippets/featured/google-style-login-extended-with-html5-localstorage
+// Geraadpleegd op 27 december 2018
+*/
