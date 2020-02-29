@@ -11,9 +11,9 @@ class DatabaseFactory {
 
         if (self::$connection == null) {
             $url = "dt5.ehb.be";
-            $user = "1819WEBADV045";
-            $passw = "kowu92";
-            $db = "1819WEBADV045";
+            $user = "username_db";
+            $passw = "pswd_db";
+            $db = "db_name";
             self::$connection = new Database($url, $user, $passw, $db);
         }
 
